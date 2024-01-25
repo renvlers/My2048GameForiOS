@@ -25,7 +25,7 @@ struct My2048GameApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IndexView()
         }
         .modelContainer(sharedModelContainer)
     }

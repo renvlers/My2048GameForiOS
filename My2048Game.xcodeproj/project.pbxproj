@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431CE73A2B621EEC0062460D /* GamePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CE7392B621EEC0062460D /* GamePageView.swift */; };
 		43898D4B2B60BAED0051F98B /* My2048GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43898D4A2B60BAED0051F98B /* My2048GameApp.swift */; };
-		43898D4D2B60BAED0051F98B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43898D4C2B60BAED0051F98B /* ContentView.swift */; };
 		43898D4F2B60BAED0051F98B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43898D4E2B60BAED0051F98B /* Item.swift */; };
 		43898D512B60BAEE0051F98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43898D502B60BAEE0051F98B /* Assets.xcassets */; };
 		43898D542B60BAEE0051F98B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43898D532B60BAEE0051F98B /* Preview Assets.xcassets */; };
 		43898D5E2B60BAEF0051F98B /* My2048GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43898D5D2B60BAEF0051F98B /* My2048GameTests.swift */; };
 		43898D682B60BAEF0051F98B /* My2048GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43898D672B60BAEF0051F98B /* My2048GameUITests.swift */; };
 		43898D6A2B60BAEF0051F98B /* My2048GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43898D692B60BAEF0051F98B /* My2048GameUITestsLaunchTests.swift */; };
+		43898D772B60BBD20051F98B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43898D762B60BBD20051F98B /* Game.swift */; };
+		43898D792B60BBF80051F98B /* GameStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43898D782B60BBF80051F98B /* GameStatus.swift */; };
+		43898D7B2B60BD030051F98B /* GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43898D7A2B60BD030051F98B /* GameMode.swift */; };
+		43898D7D2B60C1810051F98B /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43898D7C2B60C1810051F98B /* Time.swift */; };
+		43898D7F2B60DFA10051F98B /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43898D7E2B60DFA10051F98B /* IndexView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		431CE7392B621EEC0062460D /* GamePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePageView.swift; sourceTree = "<group>"; };
 		43898D472B60BAED0051F98B /* My2048Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My2048Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43898D4A2B60BAED0051F98B /* My2048GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My2048GameApp.swift; sourceTree = "<group>"; };
-		43898D4C2B60BAED0051F98B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43898D4E2B60BAED0051F98B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		43898D502B60BAEE0051F98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43898D532B60BAEE0051F98B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +51,11 @@
 		43898D632B60BAEF0051F98B /* My2048GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = My2048GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43898D672B60BAEF0051F98B /* My2048GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My2048GameUITests.swift; sourceTree = "<group>"; };
 		43898D692B60BAEF0051F98B /* My2048GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My2048GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43898D762B60BBD20051F98B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		43898D782B60BBF80051F98B /* GameStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStatus.swift; sourceTree = "<group>"; };
+		43898D7A2B60BD030051F98B /* GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMode.swift; sourceTree = "<group>"; };
+		43898D7C2B60C1810051F98B /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		43898D7E2B60DFA10051F98B /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +106,14 @@
 		43898D492B60BAED0051F98B /* My2048Game */ = {
 			isa = PBXGroup;
 			children = (
-				43898D4A2B60BAED0051F98B /* My2048GameApp.swift */,
-				43898D4C2B60BAED0051F98B /* ContentView.swift */,
+				43898D762B60BBD20051F98B /* Game.swift */,
+				43898D7A2B60BD030051F98B /* GameMode.swift */,
+				431CE7392B621EEC0062460D /* GamePageView.swift */,
+				43898D782B60BBF80051F98B /* GameStatus.swift */,
+				43898D7E2B60DFA10051F98B /* IndexView.swift */,
 				43898D4E2B60BAED0051F98B /* Item.swift */,
+				43898D4A2B60BAED0051F98B /* My2048GameApp.swift */,
+				43898D7C2B60C1810051F98B /* Time.swift */,
 				43898D502B60BAEE0051F98B /* Assets.xcassets */,
 				43898D522B60BAEE0051F98B /* Preview Content */,
 			);
@@ -260,9 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43898D4D2B60BAED0051F98B /* ContentView.swift in Sources */,
+				43898D7F2B60DFA10051F98B /* IndexView.swift in Sources */,
 				43898D4F2B60BAED0051F98B /* Item.swift in Sources */,
+				43898D7D2B60C1810051F98B /* Time.swift in Sources */,
+				43898D7B2B60BD030051F98B /* GameMode.swift in Sources */,
+				43898D792B60BBF80051F98B /* GameStatus.swift in Sources */,
 				43898D4B2B60BAED0051F98B /* My2048GameApp.swift in Sources */,
+				43898D772B60BBD20051F98B /* Game.swift in Sources */,
+				431CE73A2B621EEC0062460D /* GamePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
